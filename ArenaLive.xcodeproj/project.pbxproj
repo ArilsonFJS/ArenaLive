@@ -6,30 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B4AE65642E7B306100521DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE655C2E7B306100521DE2 /* AppDelegate.swift */; };
+		B4AE65652E7B306100521DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65612E7B306100521DE2 /* SceneDelegate.swift */; };
+		B4AE65662E7B306100521DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65622E7B306100521DE2 /* ViewController.swift */; };
+		B4AE65672E7B306100521DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AE655D2E7B306100521DE2 /* Assets.xcassets */; };
+		B4AE65692E7B306100521DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AE65602E7B306100521DE2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B4AE653E2E7B2D1200521DE2 /* ArenaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArenaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AE655C2E7B306100521DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4AE655D2E7B306100521DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4AE655E2E7B306100521DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4AE655F2E7B306100521DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4AE65612E7B306100521DE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4AE65622E7B306100521DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B4AE65502E7B2D1400521DE2 /* Exceptions for "ArenaLive" folder in "ArenaLive" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B4AE653D2E7B2D1200521DE2 /* ArenaLive */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B4AE65402E7B2D1200521DE2 /* ArenaLive */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B4AE65502E7B2D1400521DE2 /* Exceptions for "ArenaLive" folder in "ArenaLive" target */,
-			);
-			path = ArenaLive;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B4AE653B2E7B2D1200521DE2 /* Frameworks */ = {
@@ -45,7 +38,7 @@
 		B4AE65352E7B2D1200521DE2 = {
 			isa = PBXGroup;
 			children = (
-				B4AE65402E7B2D1200521DE2 /* ArenaLive */,
+				B4AE65632E7B306100521DE2 /* ArenaLive */,
 				B4AE653F2E7B2D1200521DE2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +49,123 @@
 				B4AE653E2E7B2D1200521DE2 /* ArenaLive.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B4AE655B2E7B306100521DE2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE655C2E7B306100521DE2 /* AppDelegate.swift */,
+				B4AE65612E7B306100521DE2 /* SceneDelegate.swift */,
+				B4AE65602E7B306100521DE2 /* LaunchScreen.storyboard */,
+				B4AE655D2E7B306100521DE2 /* Assets.xcassets */,
+				B4AE656A2E7B30B300521DE2 /* Cordinator */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B4AE65632E7B306100521DE2 /* ArenaLive */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE656C2E7B310300521DE2 /* Models */,
+				B4AE65712E7B4A2100521DE2 /* Views */,
+				B4AE65702E7B4A1400521DE2 /* ViewModels */,
+				B4AE655B2E7B306100521DE2 /* App */,
+				B4AE65752E7B4A4900521DE2 /* Extensions */,
+				B4AE656D2E7B310A00521DE2 /* Services */,
+				B4AE656B2E7B30FA00521DE2 /* Constants */,
+				B4AE655E2E7B306100521DE2 /* Info.plist */,
+				B4AE65622E7B306100521DE2 /* ViewController.swift */,
+			);
+			path = ArenaLive;
+			sourceTree = "<group>";
+		};
+		B4AE656A2E7B30B300521DE2 /* Cordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cordinator;
+			sourceTree = "<group>";
+		};
+		B4AE656B2E7B30FA00521DE2 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B4AE656C2E7B310300521DE2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4AE656D2E7B310A00521DE2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE656F2E7B4A0300521DE2 /* Network */,
+				B4AE656E2E7B49F800521DE2 /* Protocols */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B4AE656E2E7B49F800521DE2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B4AE656F2E7B4A0300521DE2 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B4AE65702E7B4A1400521DE2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B4AE65712E7B4A2100521DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE65742E7B4A3C00521DE2 /* TeamDetail */,
+				B4AE65732E7B4A3100521DE2 /* Teams */,
+				B4AE65722E7B4A2B00521DE2 /* Competitions */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4AE65722E7B4A2B00521DE2 /* Competitions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Competitions;
+			sourceTree = "<group>";
+		};
+		B4AE65732E7B4A3100521DE2 /* Teams */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Teams;
+			sourceTree = "<group>";
+		};
+		B4AE65742E7B4A3C00521DE2 /* TeamDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TeamDetail;
+			sourceTree = "<group>";
+		};
+		B4AE65752E7B4A4900521DE2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +182,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B4AE65402E7B2D1200521DE2 /* ArenaLive */,
 			);
 			name = ArenaLive;
 			packageProductDependencies = (
@@ -122,6 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AE65672E7B306100521DE2 /* Assets.xcassets in Resources */,
+				B4AE65692E7B306100521DE2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +241,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AE65642E7B306100521DE2 /* AppDelegate.swift in Sources */,
+				B4AE65652E7B306100521DE2 /* SceneDelegate.swift in Sources */,
+				B4AE65662E7B306100521DE2 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4AE65602E7B306100521DE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4AE655F2E7B306100521DE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B4AE65522E7B2D1400521DE2 /* Debug */ = {
