@@ -1,0 +1,43 @@
+# =========================
+# Xcode
+# =========================
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+Packages/
+Package.resolved
+
+# =========================
+# CocoaPods (caso use)
+# =========================
+Pods/
+
+# =========================
+# Carthage (caso use)
+# =========================
+Carthage/Build/
+
+# =========================
+# Fastlane
+# =========================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# =========================
+# Geral
+# =========================
+*.lock
+*.DS_Store
+*.idea/
+
