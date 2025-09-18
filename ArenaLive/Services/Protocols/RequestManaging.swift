@@ -8,5 +8,5 @@
 import Foundation
 
 protocol RequestManaging {
-    func request<T: Decodable>(endpoint: Endpoint, completion: @escaping(Result<T, Error>)-> Void)
+    func request<T: Decodable>(endpoint: Endpoint, completion: @escaping(Result<T, APIError>)-> Void)
 }
