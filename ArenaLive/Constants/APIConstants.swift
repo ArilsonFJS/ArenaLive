@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct APIConstants {
+    static let apiKey: String = "SUA_CHAVE_AQUI"
+}
