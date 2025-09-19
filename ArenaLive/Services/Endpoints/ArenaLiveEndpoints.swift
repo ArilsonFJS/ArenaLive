@@ -9,14 +9,14 @@ import Foundation
 
 enum ArenaLiveEndpoints: Endpoint {
     
-    case competitions
+    case competitions(competitionId: Int)
     case teams(competitionId: Int)
     case matches(teamId: Int)
     
     var path: String {
         switch self {
-        case .competitions:
-            return "competitions"
+        case .competitions(let competitionId):
+            return "competitions/\(competitionId)"
         case .teams(let competitionId):
             return "completitions/\(competitionId)/teams"
         case .matches(let teamId):

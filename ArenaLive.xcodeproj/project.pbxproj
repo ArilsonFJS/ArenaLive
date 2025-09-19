@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B486B9F12E7C881E0048608F /* ArenaLiveEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9F02E7C881E0048608F /* ArenaLiveEndpoints.swift */; };
+		B486B9F52E7C8CDD0048608F /* RequestManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9F42E7C8CDD0048608F /* RequestManaging.swift */; };
+		B486B9F72E7C8E690048608F /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9F62E7C8E690048608F /* RequestManager.swift */; };
+		B486B9F92E7C8FB20048608F /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9F82E7C8FB20048608F /* APIError.swift */; };
+		B486B9FB2E7E0A240048608F /* Competitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9FA2E7E0A240048608F /* Competitions.swift */; };
+		B486B9FD2E7E100D0048608F /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9FC2E7E100D0048608F /* Area.swift */; };
+		B486B9FF2E7E10520048608F /* CurrentSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9FE2E7E10520048608F /* CurrentSeason.swift */; };
 		B4AE65642E7B306100521DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE655C2E7B306100521DE2 /* AppDelegate.swift */; };
 		B4AE65652E7B306100521DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65612E7B306100521DE2 /* SceneDelegate.swift */; };
 		B4AE65662E7B306100521DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65622E7B306100521DE2 /* ViewController.swift */; };
 		B4AE65672E7B306100521DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AE655D2E7B306100521DE2 /* Assets.xcassets */; };
 		B4AE65692E7B306100521DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AE65602E7B306100521DE2 /* LaunchScreen.storyboard */; };
+		B4AE65772E7B502D00521DE2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65762E7B502D00521DE2 /* APIConstants.swift */; };
+		B4AE65792E7B54E700521DE2 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65782E7B54E700521DE2 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B486B9F02E7C881E0048608F /* ArenaLiveEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArenaLiveEndpoints.swift; sourceTree = "<group>"; };
+		B486B9F42E7C8CDD0048608F /* RequestManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManaging.swift; sourceTree = "<group>"; };
+		B486B9F62E7C8E690048608F /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		B486B9F82E7C8FB20048608F /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		B486B9FA2E7E0A240048608F /* Competitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competitions.swift; sourceTree = "<group>"; };
+		B486B9FC2E7E100D0048608F /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		B486B9FE2E7E10520048608F /* CurrentSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSeason.swift; sourceTree = "<group>"; };
 		B4AE653E2E7B2D1200521DE2 /* ArenaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArenaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AE655C2E7B306100521DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4AE655D2E7B306100521DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -22,6 +38,8 @@
 		B4AE655F2E7B306100521DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4AE65612E7B306100521DE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4AE65622E7B306100521DE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4AE65762E7B502D00521DE2 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		B4AE65782E7B54E700521DE2 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +53,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B486B9EF2E7C87DA0048608F /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				B486B9F02E7C881E0048608F /* ArenaLiveEndpoints.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		B486BA012E7E1CEC0048608F /* Competitions */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE656C2E7B310300521DE2 /* Models */,
+				B4AE65712E7B4A2100521DE2 /* Views */,
+				B4AE65702E7B4A1400521DE2 /* ViewModels */,
+			);
+			path = Competitions;
+			sourceTree = "<group>";
+		};
 		B4AE65352E7B2D1200521DE2 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +102,7 @@
 		B4AE65632E7B306100521DE2 /* ArenaLive */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE656C2E7B310300521DE2 /* Models */,
-				B4AE65712E7B4A2100521DE2 /* Views */,
-				B4AE65702E7B4A1400521DE2 /* ViewModels */,
+				B486BA012E7E1CEC0048608F /* Competitions */,
 				B4AE655B2E7B306100521DE2 /* App */,
 				B4AE65752E7B4A4900521DE2 /* Extensions */,
 				B4AE656D2E7B310A00521DE2 /* Services */,
@@ -89,6 +123,7 @@
 		B4AE656B2E7B30FA00521DE2 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE65762E7B502D00521DE2 /* APIConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -96,6 +131,9 @@
 		B4AE656C2E7B310300521DE2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B486B9FA2E7E0A240048608F /* Competitions.swift */,
+				B486B9FC2E7E100D0048608F /* Area.swift */,
+				B486B9FE2E7E10520048608F /* CurrentSeason.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -103,6 +141,7 @@
 		B4AE656D2E7B310A00521DE2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				B486B9EF2E7C87DA0048608F /* Endpoints */,
 				B4AE656F2E7B4A0300521DE2 /* Network */,
 				B4AE656E2E7B49F800521DE2 /* Protocols */,
 			);
@@ -112,6 +151,8 @@
 		B4AE656E2E7B49F800521DE2 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				B4AE65782E7B54E700521DE2 /* Endpoint.swift */,
+				B486B9F42E7C8CDD0048608F /* RequestManaging.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -119,6 +160,8 @@
 		B4AE656F2E7B4A0300521DE2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				B486B9F62E7C8E690048608F /* RequestManager.swift */,
+				B486B9F82E7C8FB20048608F /* APIError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -133,32 +176,8 @@
 		B4AE65712E7B4A2100521DE2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B4AE65742E7B4A3C00521DE2 /* TeamDetail */,
-				B4AE65732E7B4A3100521DE2 /* Teams */,
-				B4AE65722E7B4A2B00521DE2 /* Competitions */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		B4AE65722E7B4A2B00521DE2 /* Competitions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Competitions;
-			sourceTree = "<group>";
-		};
-		B4AE65732E7B4A3100521DE2 /* Teams */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Teams;
-			sourceTree = "<group>";
-		};
-		B4AE65742E7B4A3C00521DE2 /* TeamDetail */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TeamDetail;
 			sourceTree = "<group>";
 		};
 		B4AE65752E7B4A4900521DE2 /* Extensions */ = {
@@ -241,9 +260,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4AE65772E7B502D00521DE2 /* APIConstants.swift in Sources */,
 				B4AE65642E7B306100521DE2 /* AppDelegate.swift in Sources */,
+				B486B9FF2E7E10520048608F /* CurrentSeason.swift in Sources */,
+				B486B9F12E7C881E0048608F /* ArenaLiveEndpoints.swift in Sources */,
+				B486B9F72E7C8E690048608F /* RequestManager.swift in Sources */,
 				B4AE65652E7B306100521DE2 /* SceneDelegate.swift in Sources */,
+				B486B9F52E7C8CDD0048608F /* RequestManaging.swift in Sources */,
 				B4AE65662E7B306100521DE2 /* ViewController.swift in Sources */,
+				B4AE65792E7B54E700521DE2 /* Endpoint.swift in Sources */,
+				B486B9F92E7C8FB20048608F /* APIError.swift in Sources */,
+				B486B9FD2E7E100D0048608F /* Area.swift in Sources */,
+				B486B9FB2E7E0A240048608F /* Competitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
