@@ -16,7 +16,7 @@ protocol Endpoint {
 
 extension Endpoint {
     var baseURL: String {
-        return "https://api.football-data.org/v4/"
+        return "https://api.football-data.org/v4/\(APIConstants.apiKey)/"
     }
     
     var fullURL: String {

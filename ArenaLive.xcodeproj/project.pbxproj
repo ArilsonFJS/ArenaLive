@@ -14,6 +14,8 @@
 		B486B9FB2E7E0A240048608F /* Competitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9FA2E7E0A240048608F /* Competitions.swift */; };
 		B486B9FD2E7E100D0048608F /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9FC2E7E100D0048608F /* Area.swift */; };
 		B486B9FF2E7E10520048608F /* CurrentSeason.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486B9FE2E7E10520048608F /* CurrentSeason.swift */; };
+		B486BA052E7E1FA50048608F /* CompetitionsServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486BA042E7E1FA50048608F /* CompetitionsServicing.swift */; };
+		B486BA082E7E20AC0048608F /* CompetitionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B486BA072E7E20AC0048608F /* CompetitionsService.swift */; };
 		B4AE65642E7B306100521DE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE655C2E7B306100521DE2 /* AppDelegate.swift */; };
 		B4AE65652E7B306100521DE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65612E7B306100521DE2 /* SceneDelegate.swift */; };
 		B4AE65662E7B306100521DE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE65622E7B306100521DE2 /* ViewController.swift */; };
@@ -31,6 +33,8 @@
 		B486B9FA2E7E0A240048608F /* Competitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competitions.swift; sourceTree = "<group>"; };
 		B486B9FC2E7E100D0048608F /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		B486B9FE2E7E10520048608F /* CurrentSeason.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSeason.swift; sourceTree = "<group>"; };
+		B486BA042E7E1FA50048608F /* CompetitionsServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsServicing.swift; sourceTree = "<group>"; };
+		B486BA072E7E20AC0048608F /* CompetitionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionsService.swift; sourceTree = "<group>"; };
 		B4AE653E2E7B2D1200521DE2 /* ArenaLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArenaLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AE655C2E7B306100521DE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4AE655D2E7B306100521DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,11 +68,29 @@
 		B486BA012E7E1CEC0048608F /* Competitions */ = {
 			isa = PBXGroup;
 			children = (
+				B486BA062E7E20990048608F /* Services */,
+				B486BA032E7E1F8E0048608F /* Protocols */,
 				B4AE656C2E7B310300521DE2 /* Models */,
 				B4AE65712E7B4A2100521DE2 /* Views */,
 				B4AE65702E7B4A1400521DE2 /* ViewModels */,
 			);
 			path = Competitions;
+			sourceTree = "<group>";
+		};
+		B486BA032E7E1F8E0048608F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B486BA042E7E1FA50048608F /* CompetitionsServicing.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B486BA062E7E20990048608F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B486BA072E7E20AC0048608F /* CompetitionsService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		B4AE65352E7B2D1200521DE2 = {
@@ -102,8 +124,8 @@
 		B4AE65632E7B306100521DE2 /* ArenaLive */ = {
 			isa = PBXGroup;
 			children = (
-				B486BA012E7E1CEC0048608F /* Competitions */,
 				B4AE655B2E7B306100521DE2 /* App */,
+				B486BA012E7E1CEC0048608F /* Competitions */,
 				B4AE65752E7B4A4900521DE2 /* Extensions */,
 				B4AE656D2E7B310A00521DE2 /* Services */,
 				B4AE656B2E7B30FA00521DE2 /* Constants */,
@@ -265,9 +287,11 @@
 				B486B9FF2E7E10520048608F /* CurrentSeason.swift in Sources */,
 				B486B9F12E7C881E0048608F /* ArenaLiveEndpoints.swift in Sources */,
 				B486B9F72E7C8E690048608F /* RequestManager.swift in Sources */,
+				B486BA052E7E1FA50048608F /* CompetitionsServicing.swift in Sources */,
 				B4AE65652E7B306100521DE2 /* SceneDelegate.swift in Sources */,
 				B486B9F52E7C8CDD0048608F /* RequestManaging.swift in Sources */,
 				B4AE65662E7B306100521DE2 /* ViewController.swift in Sources */,
+				B486BA082E7E20AC0048608F /* CompetitionsService.swift in Sources */,
 				B4AE65792E7B54E700521DE2 /* Endpoint.swift in Sources */,
 				B486B9F92E7C8FB20048608F /* APIError.swift in Sources */,
 				B486B9FD2E7E100D0048608F /* Area.swift in Sources */,
